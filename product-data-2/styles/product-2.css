@@ -1,0 +1,106 @@
+body{
+    font-family: sans-serif;
+}
+#all{
+   margin-left: 60px; 
+}
+.text{
+    font-size: 23px;
+    font-weight: 500;
+}
+#box-1{
+    width: 50%;
+    display: flex;
+    height: 70%;
+    line-height: 5px;
+}
+.img-1{
+    width: 70%;
+    height: 50%;
+    margin-left: 5px;
+}
+.img-1a{
+    height: 120px;
+    position: relative;
+    width: 100%;
+    top: 50px;
+}
+#box-1>div:first-child>p{
+  position: relative;
+  top: 100px;
+}
+.mini-1>p:hover{
+   color: blue;
+   text-decoration: underline;
+   cursor: pointer;
+}
+.mini-1>p:last-child{
+    color: red;
+}
+#box-1>div:nth-child(2)>p:last-child{
+    color: green;
+}
+.ch{
+    position: absolute;
+    top: 350px;
+}
+#btn-1{
+    position: absolute;
+    top:410px;
+    border-radius: 5px;
+    color:#003953;
+    border-color: #003953;
+    background-color: white;
+    font-weight: bold;
+    padding: 9px 6px 9px 6px;
+}
+#btn-1:hover{
+    background-color:rgb(6, 97, 133);
+    color: white;
+}
+#vote_img{
+    width: 3%;
+}
+#box-2{
+    display: flex;
+    gap: 20px;
+    margin-top: -40px;
+}
+#rev{
+    font-size: 14px;
+    color: #003953;
+}
+#rev:hover{
+    color: black;
+    cursor: pointer;
+}
+#banner{
+    width: 96%;
+}
+#banner-2{
+    width: 96%;
+    margin-left: -23px;
+    display: block;
+}
+#btn-2{
+    border-radius: 5px;
+    color:#003953;
+    border-color: #003953;
+    background-color: white;
+    font-weight: bold;
+    padding: 9px 6px 9px 6px;
+}
+#btn-2:hover{
+    background-color:rgb(6, 97, 133);
+    color: white;
+}
+#banner-3{
+    width: 40%;
+}
+#box-3{
+    line-height: 5px;
+    display: flex;
+}
+.small{
+    font-size: 13px;
+}

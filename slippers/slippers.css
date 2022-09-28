@@ -1,0 +1,489 @@
+#first{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin: auto;
+}
+#first select{
+    height:30px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#sortdiv{
+display: flex;
+}
+#first p{
+margin-top: 35px;
+}
+#belowfirst{
+font-size: large;
+margin-top: 10px;
+}
+#belowsecond{
+cursor: pointer;
+color:#2179ae 
+}#second{
+    height:80px;
+background-color:#f2f7f6;
+width:15%;
+margin-bottom: 20px;
+
+}
+#main{
+width:95%;
+margin: auto;
+}#append{
+display: flex;
+width:100%
+
+}#third{
+width:75%;
+margin-left: 30px;
+position: relative;
+top:-200px;
+left:100px
+}#third>h4{
+font-size: 24px;
+}
+#grid{
+display: grid;
+gap:10px;
+grid-template-columns: repeat(4,230px);
+
+
+}
+#grid>div>img{
+width:70%;
+height:200px;
+background-color: #d4cbcb;
+}
+#grid>div>div>img{
+width:50px;
+height:50px;
+border-radius: 100%;
+border:1px solid grey;
+border-width: 2px;
+}
+#grid>div{
+
+height:auto;
+cursor:pointer;
+color:#124e6f;
+
+
+}
+#grid>div>div{
+margin: auto;
+}
+#grid>div:hover{
+text-decoration: underline;
+color:rgb(99, 101, 232)
+}
+#sidebar{
+   
+    left:40px;
+    top:290px;
+    font-size: large;
+    height:auto;
+}
+.bargrid{
+    cursor: pointer;
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(4,1fr);
+}
+#Wsize{
+cursor: pointer;
+}
+#Wsize>div>div{
+    border:1px solid black;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color:#00415d
+
+}
+    #Msize{
+    cursor: pointer;
+    }
+    #Msize>div>div{
+        border:1px solid black;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color:#00415d
+
+    }
+    
+    #Wwidth{
+    cursor: pointer;
+        }
+        #Wwidth>div>div{
+            border:1px solid black;
+            text-align: center;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            color:#00415d
+
+        }
+    #Mwidth{
+    cursor: pointer;
+    }
+    #Mwidth>div>div{
+        border:1px solid black;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color:#00415d
+    }
+    #gender>div{
+    cursor: pointer;
+    color:#00415d
+
+    }
+    #gender{
+        cursor: pointer;
+    }
+    #cat>div>div{
+        border:1px solid black;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color:#00415d
+    
+    }
+        #cat{
+        cursor: pointer;
+        }
+        #brand>div>div{
+            border:1px solid black;
+            text-align: center;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            color:#00415d
+        
+        }
+            #brand{
+            cursor: pointer;
+            } 
+            #price>div>div{
+                border:1px solid black;
+                text-align: center;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                color:#00415d
+            
+            }
+                #price{
+                cursor: pointer;
+                }
+#color>div>div{
+border:1px solid black;
+text-align: center;
+padding-top: 2px;
+padding-bottom: 2px;
+color:#00415d
+}
+#color{
+cursor: pointer;
+}
+#features>label{
+border:1px solid black;
+text-align: center;
+padding-top: 2px;
+padding-bottom: 2px;
+color:#00415d
+                    
+}
+#features{
+cursor: pointer;
+} 
+#closure input{
+border:1px solid black;
+text-align: center;
+padding-top: 2px;
+padding-bottom: 2px;
+color:#00415d
+}
+ #closure{
+cursor: pointer;
+}   
+                            
+#shoe{
+cursor: pointer;
+}
+#cnt{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    width:100%;
+    margin-bottom:30px;
+    color:#00415d
+}
+#cnt>div{
+    border-radius: 20px;
+   
+}
+#ed1{
+    width:auto;
+    height:30px;
+    border:1px solid black;
+    font-size:24px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#ed2{
+    width:auto;
+    height:30px;
+    border:1px solid black;
+    font-size:24px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+#ed3{
+    width:auto;
+    height:30px;
+    border:1px solid black;
+    font-size:24px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+#ed4{
+    width:auto;
+    height:30px;
+    border:1px solid black;
+    font-size:24px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+#ed5{
+    width:auto;
+    height:30px;
+    border:1px solid black;
+    font-size:24px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+#ed6{
+    width:auto;
+    height:30px;
+    border:1px solid black;
+    font-size:24px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+#ed7{
+    width:auto;
+    height:30px;
+    border:1px solid black;
+    font-size:24px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+#ed8{
+    width:auto;
+    height:30px;
+    border:1px solid black;
+    font-size:24px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+button{
+    font-size: 26px;
+    background-color:rgb(235, 230, 230);
+    border-width: 1px;
+    border-color: rgb(151, 151, 151);
+    margin-right: 20px;
+    margin-top: 10px;
+    color: grey;
+}
+#grid>img{
+border-radius: 0px;
+}
+
+/* footer */
+#footer{
+    height: 700px;
+    width: 100%;
+    background-color: #10476a;
+    display: flex;
+    color: white;
+    padding: 5px 5px;
+
+}
+#cs,#ez,#fi,#az,.re,#connect{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1;
+}
+
+#logo{
+    display: flex;
+}
+h3{
+    margin-left: 10px;
+}
+a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+#footer div{ 
+    width: 100%;
+}
+#connect button{
+    width: 200px;
+    height: 50px;
+    background-color:#10476a ;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#connect button:hover{
+    background-color: white;
+    color: black;
+}
+
+#logo>img{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#footer1{
+    height: 150px;
+    width:100%;
+    background-color: #07354a;
+    color: white;
+    padding: 5px 5px;
+}
+#footer1 input{
+    height: 44px;
+    width:200px;
+    border-radius: 5px;
+    border: none;
+}
+#footer1 button{
+    height: 44px;
+    width:250px;
+    border-radius: 5px;
+    background-color:#003953 ;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 14px;
+}
+#footer1 button:hover{
+    background-color: white;
+    color:#003953 ;
+}
+
+#bottom{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+/* navbar */
+
+#navbar{
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+#logo{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#search{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 500px;
+    padding-left:  40px;
+    height:44px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    border-radius: 4px 0px 0px 4px;
+}
+#srch{
+    border: none;
+    height:49.4px;
+    margin-top: 20px;
+    width: 100px;
+    font-style: normal;
+    font-weight: bolder;
+    background-color: #003953;
+    color: white;
+    border-radius:0px 4px 4px 0px;
+    cursor: pointer;
+    font-size: 14px;
+    }
+#cart{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 235, 22);
+    margin-left: 350px;
+    display: flex;
+    cursor: pointer;
+
+}
+#cart img{
+    height: 100%;
+    width: 25%;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+#cart p{
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+#options{
+    height: 50px;
+    width: 100%;
+    background-color:#f4f4f4;
+}
+#options{
+    display: flex;
+}
+#options a{
+    margin-top: 15px;
+    text-decoration: none;
+    margin-left: 35px;
+    color: #003953;
+    font-size:larger;
+}
+#signin{
+    border: 0px;
+    cursor: pointer;
+    margin-left: 450px;
+    color: #003953;
+    font-size: larger;
+}
+#sigin:hover{
+    border-bottom: 1px solid black;
+}#sort {
+    font-size: larger;
+    font-weight: bold;
+    border: 1px solid rgb(71, 3, 243);
+}

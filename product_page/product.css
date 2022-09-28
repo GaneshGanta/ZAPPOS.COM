@@ -1,0 +1,138 @@
+#upper{
+    height:auto;
+    width:auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#left{
+    width:20px;
+    height:auto;
+  
+}
+#mid{
+    width:600px;
+    height:600px;
+}
+#mid>img{
+    width:100%
+}
+#right{
+    width:400px;
+    height:auto;
+ 
+    background-color: #f4f4f4;
+}
+#l{
+    width:500px;
+    height:auto;
+}
+#r{
+    width:400px;
+    background-color: #f4f4f4;
+}
+#lower{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+#in:hover{
+    color:teal;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#m{
+    width:160px
+}
+#belowimg{
+    width:90%;
+    height:auto;
+    margin-left:10%;
+    display: flex;
+}#belowimg img{
+    margin-top: 25px;
+   width: 60px;
+   height:140px
+    
+}
+#line{
+    margin-top:100px ;
+    width:100%;
+    text-align: center;
+}
+#img11,#img12,#img13,#img14,#img15{
+margin-right: 40px;
+width:600px;
+height:500px
+}
+#left>div{
+    width:100%;
+    height:140px;
+    margin-top: 6.5px;
+    background-color: #fafafa;
+}
+#ship{
+    background-color: #0076bd;
+    color:white;
+    width:100px;text-align: center;
+}
+.size{
+    width:40px;
+    height:30px;
+    background-color: #fafafa;
+    text-align: center;
+    padding:10px 10px 0px 10px;
+    cursor: pointer;
+
+}#custom{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+#can{
+    text-decoration: underline;
+    color:#0076bd;
+    margin-top: 30px;
+
+}
+#cartbutton{
+    width:100%;
+    height:50px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #a7e688;
+    color: #035d59;
+    font-weight: bold;
+    margin-top: 30px;
+cursor: pointer;
+}
+#amz{
+    margin-left:60px;
+    margin-top: 30px;
+
+}
+#amz img{
+    width:100px;
+    margin-left:100px;
+}
+.boximg{
+    width:80px;
+    height:80px;
+}
+#price{
+    color:#035d59
+}
+#f{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+#main{
+    margin-bottom: -250px;
+}
+
+

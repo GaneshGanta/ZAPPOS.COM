@@ -1,0 +1,88 @@
+#footer{
+    height: 700px;
+    width: 100%;
+    background-color: #10476a;
+    display: flex;
+    color: white;
+    padding: 5px 5px;
+
+}
+#cs,#ez,#fi,#az,.re,#connect{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1;
+}
+
+#logo{
+    display: flex;
+}
+#ez h3{
+    margin-left: 10px;
+}
+#footer a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+#footer div{ 
+    width: 100%;
+}
+#connect button{
+    width: 200px;
+    height: 50px;
+    background-color:#10476a ;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#connect button:hover{
+    background-color: white;
+    color: black;
+}
+
+#logo img{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#footer1{
+    height: 150px;
+    width:100%;
+    background-color: #07354a;
+    color: white;
+    padding: 5px 5px;
+    padding-left: 25px;
+}
+
+#footer1 input{
+    height: 44px;
+    width:200px;
+    border-radius: 5px;
+    border: none;
+}
+#footer1 button{
+    height: 44px;
+    width:250px;
+    border-radius: 5px;
+    background-color:#003953 ;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#footer1 button:hover{
+    background-color: white;
+    color:#003953 ;
+}
+
+#bottom{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+}
