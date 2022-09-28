@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zappos for Good</title>
+    <link rel="stylesheet" href="/overrated-impulse-4022/navbar/styles/nav.css">
+    <link rel="stylesheet" href="/overrated-impulse-4022/navbar/styles/footer.css">
+    <link rel="shortcut icon"href="https://www.zappos.com/favicon.ico" type="image/x-icon"/>   
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }#absolute {
+            height: 400px;
+        }
+        #absolute .image{
+            width: 50%;
+           height: 60%;
+            display: block;
+            position: relative;
+            bottom: 80%;
+            left: 30%;
+        } #absolute .main_img{
+            width: 100%;
+            height: 100%; 
+        }#flex {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+           
+            
+        }#flex > button {
+            padding: 10px;
+            border-radius: 20px;
+            font-size: large;
+            font-weight: bold;
+
+        }#flex > button:nth-child(1){
+            background-color: rgb(138, 138, 196);
+        }
+        #flex > button:nth-child(2){
+            background-color: rgb(234, 161, 116);
+        }
+        #flex > button:nth-child(3){
+            background-color: rgb(13, 164, 86);
+        }
+        #flex > button:nth-child(4){
+            background-color: rgb(206, 242, 107);
+        }
+        .main {
+            width: 60%;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+            line-height: 40px;
+            font-size: larger;
+            margin-bottom: 50px;
+        }
+        #grid {
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            line-height: 35px;
+
+        }#grid > div{
+            padding: 20%;
+            text-align: center;
+        }
+        #grid > div:nth-child(1){
+            background-color: rgb(240, 230, 119);
+            
+        }
+        #grid > div:nth-child(2){
+            background-color: rgb(171, 242, 242);
+        }
+        #grid > div:nth-child(3){
+            background-color: rgb(240, 186, 124);
+        }
+        #grid2{
+
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+            width: 80%;
+            margin: auto;
+            line-height: 35px;
+            margin-bottom: 50px;
+            box-sizing: border-box;
+
+        }#grid2 > div {
+            padding: 20px;
+            text-align: center;
+        }.flex2{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            line-height: 35px;
+
+        }.div2 {
+            background-color: rgb(135, 227, 239);
+            text-align: center;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .flex2 > div > img {
+            width: 100%;
+        }.flex2 > div > button {
+            padding: 10px;
+            border: 2px solid rebeccapurple;
+            font-size: large;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div id="absolute">
+        <img  class="main_img" src="https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?size=626&ext=jpg&ga=GA1.2.786868235.1656681077" alt="">
+        <img class="image" src="https://dodmzloxz80g8.cloudfront.net/wow/uploads/attachment/29800/image/ZapposForGood_Logo2-01.svg" alt="">
+    </div>
+
+
+    <div class="main">
+
+        <div id="flex">
+
+            <button>SPREADING</button>
+            <button>HAPPINESS</button>
+            <button>CELEBRATE</button>
+            <button>EVERYONE</button>
+
+        </div>
+
+        <h2>Spreading Happiness and Celebrating the Good in Everyone</h2>
+        <p>For a service business with a vision to become the world's most community-focused large company, 
+            “the right thing to do” leaves little room for confusion. It means doing right by our values, our employees, our customers,
+             and the world at large. 
+            It means giving back and doing good things.</p>
+
+
+     </div>
+
+
+
+       <h1 style="text-align: center;margin-bottom: 40px;">OUR PROGRAMS</h1>
+     <div id="grid">
+
+     <div>
+        <h2>Give</h2>
+        <p>Feel good by giving back to community with gently use and new donatins.</p>
+        <h4><u>See Give Program </u></h4>
+     </div>
+
+     <div>
+        <h2>Recycle</h2>
+        <p>Make the world a little greener by reducing textile through our recycling programs.</p>
+        <h4><u>see recycle Programs</u></h4>
+     </div>
+
+     <div>
+        <h2>Closets for good </h2>
+        <p>Dedicated to ensure students have everyday essentials to thrice in their learning environments.</p>
+        <h4><u>See Closets for Good</u></h4>
+     </div>
+
+    </div>
+
+    <div class="main">
+
+        <h2>Three Easy Steps to Donate and Recycle</h2>
+        <p> Ship your items free of charge! We accept multiple boxes. Please limit each box to 50 lbs.
+            (Continental U.S shipping only.)</p>
+
+    </div>
+
+
+    <div id="grid2">
+
+        <div>
+            <h4>STEP 1</h4>
+            <h2>Pack Your Items</h2>
+            <p>Pack up uour new or gendtlu used items in any shipping vox you have.</p>
+        </div>
+
+        <div>
+            <h4>STEP 2</h4>
+            <h2>Print Label</h2>
+            <p>Choose an organization from and print your prepaid shipping label.</p>
+        </div>
+
+        <div>
+            <h4>STEP 3</h4>
+            <h2>Drop-off Package</h2>
+            <p>Attach the shipping label to your box and drop it off at any UPS store!</p>
+        </div>
+
+</div>
+
+
+<div class="flex2">
+
+    <div>
+        <img src="https://dodmzloxz80g8.cloudfront.net/r/1000x/wow/uploads/attachment/3129/image/girl_shoes_2.jpg.webp" alt="">
+    </div>
+
+    <div class="div2">
+       <h1>Giving Everyone the Opportunity
+        to Help Others</h1>
+        <p>Donate well-loved shoes and books, or give a new backpack and school supplies. Together, we can help build future heroes.</p>
+       <button>See Give Program</button>
+    </div>
+
+</div>
+
+
+<div id="foot"></div>
+
+   
+    
+</body>
+</html>
+<script type="module">
+     import navbar from "../navbar/components/navbar.js"
+ document.getElementById("navbar").innerHTML=navbar()
+ import footer from "../navbar/components/footer.js"
+ document.getElementById("foot").innerHTML=footer()
+
+</script>

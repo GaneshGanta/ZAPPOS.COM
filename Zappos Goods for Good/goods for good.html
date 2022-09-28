@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zappos Goods for Good</title>
+    <link rel="stylesheet" href="/overrated-impulse-4022/navbar/styles/nav.css">
+    <link rel="stylesheet" href="/overrated-impulse-4022/navbar/styles/footer.css">
+    <link rel="shortcut icon"href="https://www.zappos.com/favicon.ico" type="image/x-icon"/>   
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }img{
+            width: 100%;
+        }#flex {
+            width: 60%;
+            margin: auto;
+            line-height: 25px;
+            font-size: larger;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        }#flex > img {
+           width: 40%;
+           display: block;
+            margin: auto;
+        }#flex2 {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 40px;
+            padding: 10px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }#flex2 > button {
+
+            border: 2px solid black;
+            padding: 10px;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+
+        }#grid {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+        }#grid > div > img {
+            width: 100%;
+
+        }#grid > div {
+            padding: 10px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }#grid2 {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            font-weight: bold;
+            line-height: 30px;
+            font-size: larger;
+            padding: 30px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }#grid2 > div {
+            width: 100%;
+        }#grid2 > div > button {
+            padding: 20px;
+            background-color: black;
+            color: white;
+            border: none;  
+        }.two {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 30px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+
+
+    <img src="https://dodmzloxz80g8.cloudfront.net/r/2000x/wow/uploads/attachment/70054/image/4.25_Outdoor_LP_Vis_Nav_BG_Green_1825x700_copy_4-2.jpg.webp" alt="">
+
+    <div id="flex">
+
+        <img src="https://dodmzloxz80g8.cloudfront.net/wow/uploads/attachment/69930/image/ZP_G4G_Logo_Horizontal-2.svg" alt="">
+
+        <p>It's more important now than ever that we take care of each other and this planet we call home. We're highlighting brands who are making a difference and helping build a better place for us all.</p>
+
+    </div>
+    
+
+    <div id="flex2">
+
+        <button>New Arrivals</button>
+        <button>Vegan</button>
+        <button>Sustainably Certified</button>
+        <button>Recycled</button>
+        <button>Organic</button>
+        <button>Give Back Products</button>
+    </div>
+
+    <h1 style="text-align:center ;">Creatively You</h1>
+    <p style="text-align:center ;margin-bottom: 50px;font-size: larger;" >Shop featured brands giving back this Pride.</p>
+
+    <div id="grid">
+
+        <div>
+            <img src="https://dodmzloxz80g8.cloudfront.net/r/500x/wow/uploads/attachment/70045/image/Blank_768_x_960_copy_3.jpg.webp" alt="">
+            <h2>UGG</h2>
+        </div>
+
+        <div>
+            <img src="https://dodmzloxz80g8.cloudfront.net/r/500x/wow/uploads/attachment/70046/image/Blank_768_x_960-4.jpg.webp" alt="">
+            <h2><u>SPERRY</u></h2>
+        </div>
+
+        
+        <div>
+            <img src="https://dodmzloxz80g8.cloudfront.net/r/500x/wow/uploads/attachment/70049/image/Blank_768_x_960_copy_5.jpg.webp" alt="">
+            <h2> <u>Crocs</u></h2>
+        </div>
+
+        
+        <div>
+            <img src="https://dodmzloxz80g8.cloudfront.net/r/500x/wow/uploads/attachment/70048/image/Blank_768_x_960_copy_4-2.jpg.webp" alt="">
+            <h2><u>The Nort Face</u></h2>
+        </div>
+
+    </div>
+
+
+    <div id="grid2">
+        <div>
+            <img src="https://dodmzloxz80g8.cloudfront.net/r/1000x/wow/uploads/attachment/70052/image/Dr._Martens_Pride_Featured_Brand.jpg.webp" alt="">
+        </div>
+
+        <div class="two">
+
+            <h1>Brand Spotlight: Dr. Martens</h1>
+            <p>
+                Pride is more than a single moment in the calendar; gender identity and sexual orientation are important every single day. For 2022, Dr. Martens is donating $200,000 to The Trevor Project, the world's largest suicide prevention and crisis intervention organization for LGBTQIA+ youth, to support their ongoing partnership.
+            </p>
+            <button>Shop 1461 For Pride</button>
+        </div>
+
+    </div>
+    <div id="foot"></div>
+
+    
+</body>
+</html>
+<script type="module">
+    import navbar from "../navbar/components/navbar.js"
+document.getElementById("navbar").innerHTML=navbar()
+import footer from "../navbar/components/footer.js"
+document.getElementById("foot").innerHTML=footer()
+
+</script>
